@@ -1,0 +1,99 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #333;
+  padding: 20px;
+}
+
+/* Navbar */
+header {
+  background: #111827;
+  padding: 15px 0;
+}
+
+.main-nav {
+  list-style: none;
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline; /* 👈 makes navbar inline */
+  margin: 0 15px;
+}
+
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: #38bdf8;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #38bdf8, #6366f1);
+  color: white;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form */
+.input-container {
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+}

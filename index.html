@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Alex Kiprop | HTML Project</title>
+
+  <!-- Google Font: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- HOME SECTION-->
+    <section id="home" class="hero">
+      <h2>Welcome</h2>
+      <p>
+        Hi, my name is <strong>Alex Kiprop</strong>. This is a simple HTML
+        project demonstrating basic web structure, semantic HTML, and Git usage.
+      </p>
+    </section>
+
+    <hr />
+
+    <!-- ABOUT SECTION-->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a software developer learning Git, Linux, and web development. I
+        enjoy building projects, deploying applications, and improving my
+        technical skills.
+      </p>
+    </section>
+
+    <hr />
+
+    <!-- WORK SECTION-->
+    <section id="work">
+      <h2>Work</h2>
+      <ul>
+        <li>Git & GitHub version control</li>
+        <li>Linux server management</li>
+        <li>HTML projects</li>
+        <li>Backend & deployment practice</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <!-- RESUME SECTION-->
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><strong>Skills:</strong></p>
+      <ul>
+        <li>HTML</li>
+        <li>Git & GitHub</li>
+        <li>Linux</li>
+        <li>Node.js (basic)</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <!-- Demonstrates use of HTML tables -->
+    <section>
+      <h2>Projects</h2>
+
+      <table border="1" cellpadding="10">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Tools Used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Git Basics</td>
+            <td>Learning version control and GitHub workflows</td>
+            <td>Git, GitHub</td>
+          </tr>
+          <tr>
+            <td>Linux Practice</td>
+            <td>Working with terminal commands and servers</td>
+            <td>Linux, Bash</td>
+          </tr>
+          <tr>
+            <td>HTML Project</td>
+            <td>Building structured web pages</td>
+            <td>HTML</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- MEDIA SECTION Demonstrates use of image, audio, and video elements -->
+    <section id="media">
+      <h2>Media</h2>
+
+      <!-- IMAGE -->
+      <h3>Developer Image</h3>
+      <img src="./media/images/developer.jpeg" alt="Developer working" width="200" />
+
+      <br /><br />
+
+      <!-- AUDIO -->
+      <h3>Sample Audio</h3>
+      <audio controls>
+        <source src="./media/audio/sample.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <br /><br />
+
+      <!-- YOUTUBE VIDEO -->
+      <h3>HTML & CSS Tutorial</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/AKZ6KGcRMrk"
+        title="HTML and CSS Full Course"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+        "
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+
+    <hr />
+
+    <!-- CONTACT SECTION Contains an HTML form for user input-->
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form>
+        <!-- Name Field -->
+        <div class="input-container">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        </div>
+
+        <!-- Email Field -->
+        <div class="input-container">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+        </div>
+
+        <!-- Message Field -->
+        <div class="input-container">
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" placeholder="Enter your message" rows="5" cols="40"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <!--FOOTER -->
+    <footer>
+      <p>&copy; 2026 Alex Kiprop. All rights reserved.</p>
+      <p>
+        Connect with me on
+        <a href="https://www.linkedin.com/in/alexander-kiprop-dev/" target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://github.com/alexbart" target="_blank">GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
